@@ -122,7 +122,7 @@ a[target='sharks'] {
 
 .grid-item {
     background-color: beige;
-    border: 1px dashed gray;
+    border: 3px dashed gray;
     padding: 10px;
     font-size: 10pt;
     text-align: left;

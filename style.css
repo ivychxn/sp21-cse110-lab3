@@ -2,8 +2,10 @@
 body {
     background-color: aliceblue;
     color: #000000;
-    font-family: Roboto;
+    font-family: Arial;
     margin: auto;
+    padding: top;
+    height: 100vw;
 }
 
 /* make main header pretty */
@@ -11,34 +13,44 @@ h1 {
     font-family: Oswald;
     color: rgb(0, 73, 92);
     text-align: center;
-    font-size: 45px;
-    line-height: 2em;
+    font-size: 50px;
+    line-height: 0.5em;
 }
 
 /* make secondary header pretty */
 h2, h3 {
     font-family: Oswald;
     color: hsl(266, 100%, 28%);
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.whaleSharkie {
+    text-decoration: none;
+    text-align: left;
+    padding: 5px;
+    margin-left: 10px;
+    width: 40vw;
+}
+
+.whaleSharkie a {
+    text-decoration: none;
 }
 
 /* i have to use id to get points */
 #sharkie {
     font-family: Verdana;
-    width: 7in;
-    display: inline;
-    border-style: dotted;
-    border-color: gray;
-    border-width: 1px;
-    border-radius: 0in;
-    padding: top;
+    padding: 5px;
+    margin-left: 10px;
+    width: 40vw;
 }
 
 .greatWhiteShark {
     font-family: Verdana;
-    min-width: 25ch;
-    max-width: 250ch;
-    height: 100vw;
+    border-style: dotted;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 0in;
+    width: 3in;
 }
 
 * {
@@ -57,6 +69,8 @@ div p {
     height: 3in;
     display: none;
     margin: bottom;
+    min-width: 25ch;
+    max-width: 250ch;
 }
 
 ul ~ ol {
@@ -68,7 +82,7 @@ a {
 }
 
 a:hover {
-    text-decoration: bold;
+    text-decoration: underline;
 }
 
 a:active {
@@ -85,21 +99,39 @@ a[target='sharks'] {
     flex-direction: flex-end;
 }
 
+.flex-container a {
+    text-decoration: none;
+}
+
+.flex-container a:hover {
+    text-decoration: underline;
+}
+
+.flex-container a:active {
+    color: mediumslateblue;
+}
+
 .grid-container {
     display: grid;
-    grid-column-start: col-start 1;
+    grid-column-start: col-start 5;
     padding-left: 5px;
-    margin-left: 5px;
-    grid-template-rows: 0.2vw 0.2vw 0.2vw;
+    margin-bottom: 5px;
+    grid-template-rows: 30px 30px 30px;
     grid-template-columns: 75px 75px 75px;
 }
 
 .grid-item {
     background-color: beige;
-    border: 1px dotted gray;
-    padding: 15px;
-    font-size: 15pt;
+    border: 1px dashed gray;
+    padding: 10px;
+    font-size: 10pt;
     text-align: left;
+}
+
+.bigSharkie {
+    width: 40vw;
+    height: 20vh;
+    padding: 20px;
 }
 
 div.sharkie {
@@ -108,9 +140,9 @@ div.sharkie {
     position: absolute;
 }
 
-@media only screen {
+@media only screen and (max-width: 1500px) {
     body {
-        background-color: pink;
+        background-color: rgb(255, 232, 236);
     }
 }
 

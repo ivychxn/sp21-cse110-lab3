@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto"/>
-        <link rel="stylesheet" href="https://fonts.google.com/specimen/Oswald"/>
-        <title>Journal Time</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">        <title>Journal Time</title>
         <link type="text/css" rel="stylesheet" href="style.css"/>
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/png" href="favicon.png"/>
@@ -12,61 +11,65 @@
         <header>
             <h1>Ivy Chan</h1>
             
-            <nav>
-                <a href="https://github.com/ivychxn">github</a>
-                <a href="https://www.linkedin.com/in/ivychxn/">linkedin</a>
-                <a href="https://twitter.com/loansharkivy">twitter</a>
-                <a href="https://www.instagram.com/loansharkivy/">instagram</a>
-            </nav>
+            <div class="flex-container">
+                <nav>
+                    <a href="https://github.com/ivychxn">github</a>
+                    <a href="https://www.linkedin.com/in/ivychxn/">linkedin</a>
+                    <a href="https://twitter.com/loansharkivy">twitter</a>
+                    <a href="https://www.instagram.com/loansharkivy/">instagram</a>
+                </nav>
+            </div>
         </header>
 
-        <main>            
-            <h2>2 days ago - Thursday</h2>
-            <h3>4/8/21</h3>
-            I wake up. I look at the clock. It is <b>7am</b>. What a wild time to wake up. <i>Just kidding.</i> I go back to sleep. I refuse to wake up that early.<br>
+        <main>
+            <div id="sharkie">
+                <h2>2 days ago - Thursday</h2>
+                <h3>4/8/21</h3>
+                I wake up. I look at the clock. It is <b>7am</b>. What a wild time to wake up. <i>Just kidding.</i> I go back to sleep. I refuse to wake up that early.<br>
 
-            <p> there r too many things to do zzzz i just wanna play bloons tower defense bc the other day i was doing rly good. im almost at lvl 70 and i need more monkey knowledge to upgrade my monkeys why can't i just have more time to feed my bloons td6 addiction wah </p>
+                <p> there r too many things to do zzzz i just wanna play bloons tower defense bc the other day i was doing rly good. im almost at lvl 70 and i need more monkey knowledge to upgrade my monkeys why can't i just have more time to feed my bloons td6 addiction wah </p>
 
-            STUFF FOR TODAY<br>
-            <div>
-                <ol>
-                    <li> clock in for work</li>
-                    <li> do work stuff </li>
-                    <li> clock out</li>
-                </ol>
-            </div>
+                STUFF FOR TODAY<br>
+                <div class="greatWhiteShark">
+                    <ol>
+                        <li> clock in for work</li>
+                        <li> do work stuff </li>
+                        <li> clock out</li>
+                    </ol>
+                </div>
 
+                <hr>
+                <h2>1 day ago - Friday</h2>
+                <h3>4/9/21</h3>
+                <strong>SHOPPING TODAY</strong><br>
+                Gotta get groceries. GROCERIESSSSSS.
+                <ul>
+                    <li> 1 red bell pepper</li>
+                    <li> pad thai noodle pack</li>
+                    <li> garlic</li>
+                    <li> cilantro</li>
+                    <li> green onion</li>
+                    <li> bean sprouts</li>
+                    <li> limes</li>
+                    <li> chicken</li>
+                </ul>
+
+                first time making <em>pad thai</em> - shoutout to <a href="https://tastesbetterfromscratch.com/pad-thai/">this recipe</a> to get started<br>
+                <img src="padthai.png" alt="my pad thai">
+            
             <hr>
-            <h2>1 day ago - Friday</h2>
-            <h3>4/9/21</h3>
-            <strong>SHOPPING TODAY</strong><br>
-            Gotta get groceries. GROCERIESSSSSS.
-            <ul>
-                <li> 1 red bell pepper</li>
-                <li> pad thai noodle pack</li>
-                <li> garlic</li>
-                <li> cilantro</li>
-                <li> green onion</li>
-                <li> bean sprouts</li>
-                <li> limes</li>
-                <li> chicken</li>
-            </ul>
-
-            first time making <em>pad thai</em> - shoutout to <a href="https://tastesbetterfromscratch.com/pad-thai/">this recipe</a> to get started<br>
-            <img src="padthai.png" alt="my pad thai">
-        
-        <hr>
-        <h2>Today - Saturday</h2>
-        <h3>4/10/21</h3>
-        <span>I am chillin.</span> Day barely even started. Vibing to an ABSOLUTE bop. Check it out
-        <br>
-        <audio controls>
-            <source src="assm.mp3" type="audio/mp3">
-        </audio>
-        
-        <hr>
+            <h2>Today - Saturday</h2>
+            <h3>4/10/21</h3>
+            <span>I am chillin.</span> Day barely even started. Vibing to an ABSOLUTE bop. Check it out
+            <br>
+            <audio controls>
+                <source src="assm.mp3" type="audio/mp3">
+            </audio>
+            <hr>
+        </div>
         </main>
 
+        <div class="whaleSharkie">
         <section>
             <h2>well that's sorta it</h2>
             <p>p much me ya know</p>
@@ -123,17 +126,17 @@
         <br>
 
         want some fake customizations?<br>
-        <div>
+        <div class="greatWhiteShark">
           <input type="checkbox">
           <label>make it pretty</label>
         </div>
         
-        <div>
+        <div class="greatWhiteShark">
           <input type="checkbox">
           <label>make entry private</label>
         </div>
         
-        <div>
+        <div class="greatWhiteShark">
           <input type="checkbox">
           <label>send email confirmation</label>
         </div>
@@ -154,11 +157,25 @@
              <option>sharkboy</option>
              <option>lavagirl</option>
          </select>
-         
          <br>
+        </div>
+
+        <div class="bigSharkie">
+            <div class="grid-container">
+                <div class="grid-item">this</div>
+                <div class="grid-item">grid</div>
+                <div class="grid-item">for</div>
+                <div class="grid-item">testing</div>
+                <div class="grid-item">is</div>
+                <div class="grid-item">wilding</div>
+                <div class="grid-item">wilding</div>
+                <div class="grid-item">wilding</div>
+                <div class="grid-item">wilding</div>
+            </div>
+            <br>
+        </div>
         <footer>
             disclaimer: i don't even remember what i ate yesterday so some details b wildin
         </footer>
-
     </body>
 </html>

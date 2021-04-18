@@ -1,8 +1,8 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: styling
+about: adding some sTyLe to my page
 title: ''
-labels: style journal entry, to do, add more sharks
+labels: style journal entry, to do, add more sharks, more COLOR, font looks ugly
 assignees: ivychxn
 
 ---

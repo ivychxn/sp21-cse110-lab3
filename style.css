@@ -1,0 +1,156 @@
+/* starting with the body to add background and font styles*/
+body {
+    background-color: aliceblue;
+    color: #000000;
+    font-family: Arial;
+    margin: auto;
+    padding: top;
+    height: 100vw;
+}
+
+/* make main header pretty */
+h1 {
+    font-family: Oswald;
+    color: rgb(0, 73, 92);
+    text-align: center;
+    font-size: 50px;
+    line-height: 0.5em;
+}
+
+/* make secondary header pretty */
+h2, h3 {
+    font-family: Oswald;
+    color: hsl(266, 100%, 28%);
+    text-decoration: none;
+}
+
+.whaleSharkie {
+    text-decoration: none;
+    text-align: left;
+    padding: 5px;
+    margin-left: 10px;
+    width: 40vw;
+}
+
+.whaleSharkie a {
+    text-decoration: none;
+}
+
+/* i have to use id to get points */
+#sharkie {
+    font-family: Verdana;
+    padding: 5px;
+    margin-left: 10px;
+    width: 40vw;
+}
+
+.greatWhiteShark {
+    font-family: Verdana;
+    border-style: dotted;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 0in;
+    width: 3in;
+}
+
+* {
+    line-height: 2ch;
+}
+
+p {
+    line-height: 15pt;
+    font-size: 0.2lh;
+    margin-bottom: 2px;
+}
+
+div p {
+    text-align: left;
+    text-decoration: bold;
+    height: 3in;
+    display: none;
+    margin: bottom;
+    min-width: 25ch;
+    max-width: 250ch;
+}
+
+ul ~ ol {
+    text-decoration: bold;
+}
+
+a {
+    color: lightblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightgreen;
+}
+
+a[target='sharks'] {
+    font-size: 3vw;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: flex-end;
+}
+
+.flex-container a {
+    text-decoration: none;
+}
+
+.flex-container a:hover {
+    text-decoration: underline;
+}
+
+.flex-container a:active {
+    color: mediumslateblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-start: col-start 5;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 75px 75px 75px;
+}
+
+.grid-item {
+    background-color: beige;
+    border: 3px dashed gray;
+    padding: 10px;
+    font-size: 10pt;
+    text-align: left;
+}
+
+.bigSharkie {
+    width: 40vw;
+    height: 20vh;
+    padding: 20px;
+}
+
+div.sharkie {
+    font-family: Arial;
+    padding: 10px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1500px) {
+    body {
+        background-color: rgb(255, 232, 236);
+    }
+}
+
+p > li {
+    background-color: pink;
+    font-family: Cambria;
+}
+
+li + p {
+    background-color: lavender;
+}
